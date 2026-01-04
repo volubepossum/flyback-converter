@@ -5,49 +5,31 @@
 	(uuid "2a83af91-06f2-49ce-b4c4-2ccbd245157a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Samacsys:B65816N1012D001"
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at 21.59 7.62 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "B65816N1012D001"
-				(at 21.59 5.08 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:B65816N1012D001"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/rm_12.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite Accessories, RM Cores Accessories, Coil former (RM 12)"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,8 +38,168 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "18"
-				(at 21.59 -394.92 0)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Samacsys:B65814N1012D001"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "B65814N1012D001"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:B65814N1012D001"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/rm_10.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite Accessories, RM Cores Accessories, Coil former (RM 10)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "13.55"
+				(at 19.05 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,7 +209,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "TDK"
-				(at 21.59 -494.92 0)
+				(at 19.05 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -76,8 +218,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "B65816N1012D001"
-				(at 21.59 -594.92 0)
+			(property "Manufacturer_Part_Number" "B65814N1012D001"
+				(at 19.05 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -86,8 +228,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "N/A"
-				(at 21.59 -694.92 0)
+			(property "Mouser Part Number" "871-B65814N1012D001"
+				(at 19.05 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -96,8 +238,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B65816N1012D001?qs=Uha62PnlbFBZRp0qVmTuFg%3D%3D"
-				(at 21.59 -794.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B65814N1012D001?qs=%2FsLciWRBLmCf8wlHdbgnvg%3D%3D"
+				(at 19.05 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -106,8 +248,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "B65816N1012D001"
-				(at 21.59 -894.92 0)
+			(property "Arrow Part Number" "B65814N1012D001"
+				(at 19.05 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -116,8 +258,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b65816n1012d001/tdk?utm_currency=USD&region=europe"
-				(at 21.59 -994.92 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b65814n1012d001/tdk?region=europe"
+				(at 19.05 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -126,10 +268,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "B65816N1012D001_1_1"
+			(symbol "B65814N1012D001_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 20.32 -17.78)
+					(end 17.78 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -265,7 +407,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 0 180)
+					(at 22.86 0 180)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -283,7 +425,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -2.54 180)
+					(at 22.86 -2.54 180)
 					(length 5.08)
 					(name "9"
 						(effects
@@ -301,7 +443,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -5.08 180)
+					(at 22.86 -5.08 180)
 					(length 5.08)
 					(name "10"
 						(effects
@@ -319,7 +461,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -7.62 180)
+					(at 22.86 -7.62 180)
 					(length 5.08)
 					(name "11"
 						(effects
@@ -337,7 +479,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -10.16 180)
+					(at 22.86 -10.16 180)
 					(length 5.08)
 					(name "12"
 						(effects
@@ -355,16 +497,16 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -12.7 180)
+					(at 22.86 -12.7 180)
 					(length 5.08)
-					(name "GND_1"
+					(name "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G1"
+					(number "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -373,16 +515,341 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -15.24 180)
+					(at 22.86 -15.24 180)
 					(length 5.08)
-					(name "GND_2"
+					(name "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G2"
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Samacsys:STP16NF06"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "STP16NF06"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:TO270P460X1020X2008-3P"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stp16nf06.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-channel 60V - 0.08 - 16A - TO-220/TO-220FP STripFET II Power MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.6"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "STP16NF06"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STP16NF06"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STP16NF06?qs=FOlmdCx%252BAA3QgI0ylnH1gA%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "STP16NF06"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stp16nf06/stmicroelectronics?region=nac"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "STP16NF06_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -683,412 +1150,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Snapeda:STP16NF06"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 11.43 1.905 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "STP16NF06"
-				(at 11.43 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Snapeda:TO-220_STM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stp16nf06.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "STP16NF06"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-220_STM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "STP16NF06_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 1.905) (xy 7.62 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 1.27) (xy 5.715 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -0.635) (xy 5.715 0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -1.905) (xy 7.62 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -2.54) (xy 5.715 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0.635) (xy 5.715 0) (xy 6.985 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 0)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 8.89 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 1.905) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -1.27)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.255 2.54)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 0.635) (xy 8.001 0.381)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.255 -2.54)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 0.635) (xy 8.89 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 8.89 -0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 0.635) (xy 8.255 0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -0.635) (xy 8.255 -0.635) (xy 8.89 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.779 0.889) (xy 9.525 0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -7.62 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1329,40 +1390,94 @@
 		)
 	)
 	(junction
-		(at 179.07 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f210b45-1101-4c0f-af12-b8f8ecd81d1d")
-	)
-	(junction
-		(at 194.31 54.61)
+		(at 194.31 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8f551d3-6d7d-47db-8ace-5ca0b138a7ec")
 	)
+	(no_connect
+		(at 173.99 60.96)
+		(uuid "0ace18a7-ea94-481a-87dd-64011f6bbfbb")
+	)
+	(no_connect
+		(at 151.13 68.58)
+		(uuid "23651e1d-65e7-4f37-99db-41267a10f59a")
+	)
+	(no_connect
+		(at 151.13 63.5)
+		(uuid "2cf176e8-ce40-4f0d-9ae1-5f88f5274d2f")
+	)
+	(no_connect
+		(at 173.99 58.42)
+		(uuid "3e2d3560-dd26-4a64-acf7-a599b9424157")
+	)
+	(no_connect
+		(at 173.99 63.5)
+		(uuid "6c3ed1ae-1c43-413c-9990-2ef70218a4fd")
+	)
+	(no_connect
+		(at 173.99 66.04)
+		(uuid "7de67627-7299-4d69-9a67-c42561a7f43a")
+	)
+	(no_connect
+		(at 173.99 68.58)
+		(uuid "880e699f-3d33-4caa-8cfe-8352ae027121")
+	)
+	(no_connect
+		(at 151.13 58.42)
+		(uuid "945813b5-2ae5-40e8-89f9-abdca9d83caa")
+	)
+	(no_connect
+		(at 151.13 55.88)
+		(uuid "9a119bbc-e362-4719-89e6-23bbebdc1e08")
+	)
+	(no_connect
+		(at 173.99 53.34)
+		(uuid "d7e5ff3a-0ea8-4a72-8b51-7a0d93e1c6fd")
+	)
 	(wire
 		(pts
-			(xy 179.07 53.34) (xy 182.88 53.34)
+			(xy 149.86 66.04) (xy 151.13 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06797b9b-c5fe-4676-9ebc-793e4f05db07")
+		(uuid "0b5f4d75-6955-4af6-806e-867f51d96f06")
 	)
 	(wire
 		(pts
-			(xy 190.5 58.42) (xy 190.5 54.61)
+			(xy 110.49 57.15) (xy 110.49 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "343e7179-89ab-46d6-8235-d4030862ec4e")
+		(uuid "247dea87-8426-46ef-a044-4eaa7cd0d8a8")
 	)
 	(wire
 		(pts
-			(xy 194.31 54.61) (xy 194.31 57.15)
+			(xy 121.92 60.96) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268e5e67-bccd-4af5-9e83-5f1c6eb8ea65")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6a44b8-0d67-4656-b123-e7bb781be56d")
+	)
+	(wire
+		(pts
+			(xy 194.31 55.88) (xy 194.31 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1372,47 +1487,67 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 53.34) (xy 182.88 43.18)
+			(xy 151.13 50.8) (xy 151.13 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "437e07bc-5f18-4715-885d-b601d59b0726")
+		(uuid "4534e1ba-2b3a-4683-b7b3-7908f2506024")
 	)
 	(wire
 		(pts
-			(xy 179.07 66.04) (xy 179.07 68.58)
+			(xy 121.92 88.9) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d3c4671-b462-4d96-872f-ef0f64c7bc75")
+		(uuid "64c306bc-91e9-4d72-a22d-ce65fafdc644")
 	)
 	(wire
 		(pts
-			(xy 121.92 43.18) (xy 121.92 73.66)
+			(xy 173.99 55.88) (xy 194.31 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "528edfb5-a8de-4731-8aa8-6a602c920205")
+		(uuid "8196e005-cdfd-4275-96e5-7d1670838b12")
 	)
 	(wire
 		(pts
-			(xy 182.88 43.18) (xy 121.92 43.18)
+			(xy 110.49 54.61) (xy 110.49 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8999556d-d094-4726-8b92-c2c0817063f1")
+		(uuid "84168b2e-b264-4fc8-999a-58abe826ba41")
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 194.31 52.07)
+			(xy 149.86 72.39) (xy 149.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd89e03-afb7-49c9-9a24-507587cddbc9")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6e83d1-9bbb-4411-a4e7-911f79b0eda6")
+	)
+	(wire
+		(pts
+			(xy 201.93 53.34) (xy 194.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1422,17 +1557,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 54.61) (xy 194.31 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c01e4247-fa71-4add-a170-d17d66d04f25")
-	)
-	(wire
-		(pts
-			(xy 194.31 52.07) (xy 194.31 54.61)
+			(xy 194.31 53.34) (xy 194.31 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1442,17 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 58.42) (xy 190.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4bcb332-cd31-4abd-82c9-4d36a4a5724b")
-	)
-	(wire
-		(pts
-			(xy 194.31 57.15) (xy 201.93 57.15)
+			(xy 194.31 58.42) (xy 201.93 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1460,28 +1575,36 @@
 		)
 		(uuid "d524d36c-1fb9-4809-8181-4feb72726079")
 	)
-	(wire
-		(pts
-			(xy 179.07 68.58) (xy 179.07 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd1c805c-ff03-4d1a-9e63-ff18d350a2d8")
-	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 179.07 71.12 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 115.57 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "02fda458-1f14-4b5c-9e42-d72b548093cb")
-		(property "Reference" "#PWR02"
-			(at 179.07 77.47 0)
+		(uuid "238a69a1-a3a5-4522-8b59-aabd4f61d8f4")
+		(property "Reference" "J1"
+			(at 118.11 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vin"
+			(at 118.11 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x02_P6mm_D1.7mm_OD3mm"
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,16 +1612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 179.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 71.12 0)
+		(property "Datasheet" "~"
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,17 +1621,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 179.07 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 179.07 71.12 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1631,463 @@
 			)
 		)
 		(pin "1"
-			(uuid "86d4c7ee-cbc0-4fd5-b75f-20c11cfc9b62")
+			(uuid "23c145b7-eab0-43d0-8c9c-7ff68a176b4b")
+		)
+		(pin "2"
+			(uuid "9af0e4bf-62de-49ad-8e32-151b4543468a")
+		)
+		(instances
+			(project ""
+				(path "/2a83af91-06f2-49ce-b4c4-2ccbd245157a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:B65814N1012D001")
+		(at 151.13 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2703ff57-fb59-4fad-8d4c-fa57b12ad78e")
+		(property "Reference" "L1"
+			(at 162.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B65814N1012D001"
+			(at 162.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:B65814N1012D001"
+			(at 170.18 148.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/rm_10.pdf"
+			(at 170.18 248.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite Accessories, RM Cores Accessories, Coil former (RM 10)"
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.55"
+			(at 170.18 448.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 170.18 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B65814N1012D001"
+			(at 170.18 648.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B65814N1012D001"
+			(at 170.18 748.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B65814N1012D001?qs=%2FsLciWRBLmCf8wlHdbgnvg%3D%3D"
+			(at 170.18 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "B65814N1012D001"
+			(at 170.18 948.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b65814n1012d001/tdk?region=europe"
+			(at 170.18 1048.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bd13bcb-fd14-48f6-88e3-1366f15c2126")
+		)
+		(pin "MH2"
+			(uuid "a67c25b9-828d-4e21-9653-5b7fcef50271")
+		)
+		(pin "7"
+			(uuid "e8c49dcd-1048-47d2-ae97-f208d85079c0")
+		)
+		(pin "6"
+			(uuid "6500d740-76c7-4591-870c-fe6cad04497e")
+		)
+		(pin "9"
+			(uuid "4f8ebb61-491f-48d5-9f8a-5c88965c3c23")
+		)
+		(pin "4"
+			(uuid "03a1fa0e-a468-4d62-b591-936df8ab2ff1")
+		)
+		(pin "8"
+			(uuid "0fb8acf9-4249-4cca-a220-8b1881e19032")
+		)
+		(pin "12"
+			(uuid "dff02026-eff7-468a-86df-71b805df4e9e")
+		)
+		(pin "MH1"
+			(uuid "42aee4af-6101-47e4-8ff2-a18ebcffcbd8")
+		)
+		(pin "11"
+			(uuid "dd6e79ab-dbcb-4081-91fa-f61f8fb42dbe")
+		)
+		(pin "10"
+			(uuid "e3206ffa-261f-4116-a728-03756b295924")
+		)
+		(pin "2"
+			(uuid "cbcedde5-bb45-4046-8127-e93e18c0eb98")
+		)
+		(pin "3"
+			(uuid "195bb8f3-28bb-4d33-917a-5a2b47e3250a")
+		)
+		(pin "5"
+			(uuid "80f358b3-41c7-49cc-b094-ae1f6565fdb1")
+		)
+		(instances
+			(project ""
+				(path "/2a83af91-06f2-49ce-b4c4-2ccbd245157a"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:STP16NF06")
+		(at 114.3 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ffead48-1150-4540-8f5d-755526bad867")
+		(property "Reference" "Q1"
+			(at 125.73 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STP16NF06"
+			(at 125.73 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:TO270P460X1020X2008-3P"
+			(at 125.73 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stp16nf06.pdf"
+			(at 125.73 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel 60V - 0.08 - 16A - TO-220/TO-220FP STripFET II Power MOSFET"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.6"
+			(at 125.73 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 125.73 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STP16NF06"
+			(at 125.73 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STP16NF06"
+			(at 125.73 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STP16NF06?qs=FOlmdCx%252BAA3QgI0ylnH1gA%3D%3D"
+			(at 125.73 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STP16NF06"
+			(at 125.73 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stp16nf06/stmicroelectronics?region=nac"
+			(at 125.73 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b4cee0db-bdc2-4288-abd9-95aa7b721962")
+		)
+		(pin "2"
+			(uuid "ad2425c7-da6a-4316-aae5-27a1fa1ced30")
+		)
+		(pin "1"
+			(uuid "b9deeda2-6e59-40da-a5b9-384de0aec3c8")
+		)
+		(instances
+			(project ""
+				(path "/2a83af91-06f2-49ce-b4c4-2ccbd245157a"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 110.49 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b3612fc-a6c0-4cd6-a196-234e77a85476")
+		(property "Reference" "#PWR03"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d137a10-dde8-4381-aa32-c635d3e475f0")
+		)
+		(instances
+			(project "power-electronics2"
+				(path "/2a83af91-06f2-49ce-b4c4-2ccbd245157a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c62e0d70-fe7c-4b3e-8109-0267ccb3caba")
+		(property "Reference" "#PWR02"
+			(at 149.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d22872c8-2d4f-480b-b805-e6325151797a")
 		)
 		(instances
 			(project ""
@@ -1538,16 +2100,16 @@
 	)
 	(symbol
 		(lib_id "Samacsys:STPS10L60CFP")
-		(at 219.71 54.61 180)
+		(at 219.71 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "38575627-a977-400a-ad6b-91acebc5ef9b")
+		(uuid "caa8037c-2223-4617-9910-ba319efa180a")
 		(property "Reference" "D1"
-			(at 209.55 46.99 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +2117,7 @@
 			)
 		)
 		(property "Value" "STPS10L60CFP"
-			(at 209.55 49.53 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +2125,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:TO255P460X1020X2030-3P"
-			(at 207.01 -39.04 0)
+			(at 207.01 -37.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +2135,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stps10l60c.pdf"
-			(at 207.01 -139.04 0)
+			(at 207.01 -137.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +2145,7 @@
 			)
 		)
 		(property "Description" "Dual Schottky barrier diode,STPS10L60CFP"
-			(at 219.71 54.61 0)
+			(at 219.71 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +2154,7 @@
 			)
 		)
 		(property "Height" "4.6"
-			(at 207.01 -339.04 0)
+			(at 207.01 -337.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +2164,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 207.01 -439.04 0)
+			(at 207.01 -437.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +2174,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STPS10L60CFP"
-			(at 207.01 -539.04 0)
+			(at 207.01 -537.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +2184,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-STPS10L60CFP"
-			(at 207.01 -639.04 0)
+			(at 207.01 -637.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +2194,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS10L60CFP?qs=5Uvc6lfWVJxXCZ8HFkG8Kw%3D%3D"
-			(at 207.01 -739.04 0)
+			(at 207.01 -737.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +2204,7 @@
 			)
 		)
 		(property "Arrow Part Number" "STPS10L60CFP"
-			(at 207.01 -839.04 0)
+			(at 207.01 -837.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +2214,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stps10l60cfp/stmicroelectronics"
-			(at 207.01 -939.04 0)
+			(at 207.01 -937.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,13 +2224,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "525e03dd-0ebb-4bda-b2ff-3594c0104614")
-		)
-		(pin "2"
-			(uuid "ebd3ded1-3302-49df-84ba-763362087256")
+			(uuid "c1a748d4-12b6-4257-bb1b-eba51b455689")
 		)
 		(pin "3"
-			(uuid "e20e19bb-f705-4d03-90a3-f1eb6ea6d3a8")
+			(uuid "491772a8-1710-4f64-ae4d-5cccb4bfe370")
+		)
+		(pin "2"
+			(uuid "b9c1523e-7fea-4764-9a30-88c311bb6236")
 		)
 		(instances
 			(project ""
@@ -1680,17 +2242,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 121.92 95.25 0)
+		(lib_id "power:GNDREF")
+		(at 121.92 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68e385c3-93c8-464e-baca-61ea12a0ac3d")
+		(uuid "ec8b80ca-59c9-4926-a593-1cd59f170983")
 		(property "Reference" "#PWR01"
-			(at 121.92 101.6 0)
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,8 +2260,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 121.92 100.33 0)
+		(property "Value" "GNDREF"
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +2269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 95.25 0)
+			(at 121.92 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +2278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 95.25 0)
+			(at 121.92 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,8 +2286,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 121.92 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,261 +2296,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ffb0c91-7b14-4039-9afc-ada13f33db8a")
+			(uuid "3900f81d-ed0b-4921-a57a-197dec1fdadc")
 		)
 		(instances
 			(project ""
 				(path "/2a83af91-06f2-49ce-b4c4-2ccbd245157a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:STP16NF06")
-		(at 114.3 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf9567b1-f2c0-4b31-834b-d03cd57d30b9")
-		(property "Reference" "U1"
-			(at 127 80.0099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STP16NF06"
-			(at 127 82.5499 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Snapeda:TO-220_STM"
-			(at 114.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stp16nf06.pdf"
-			(at 114.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "03ee6bb8-a715-419e-9ee8-f866ba1856e6")
-		)
-		(pin "2"
-			(uuid "5ddcdc14-87f3-4780-acbb-6e0af2e2fe58")
-		)
-		(pin "1"
-			(uuid "4557e0ab-010d-41b8-8bc2-601c6471c906")
-		)
-		(instances
-			(project ""
-				(path "/2a83af91-06f2-49ce-b4c4-2ccbd245157a"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:B65816N1012D001")
-		(at 153.67 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd9aa74b-3553-4372-9685-fa77503f3df5")
-		(property "Reference" "L1"
-			(at 166.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B65816N1012D001"
-			(at 166.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:B65816N1012D001"
-			(at 175.26 148.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/rm_12.pdf"
-			(at 175.26 248.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite Accessories, RM Cores Accessories, Coil former (RM 12)"
-			(at 153.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "18"
-			(at 175.26 448.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 175.26 548.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B65816N1012D001"
-			(at 175.26 648.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 175.26 748.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B65816N1012D001?qs=Uha62PnlbFBZRp0qVmTuFg%3D%3D"
-			(at 175.26 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "B65816N1012D001"
-			(at 175.26 948.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b65816n1012d001/tdk?utm_currency=USD&region=europe"
-			(at 175.26 1048.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "4dc35a78-f6ad-4e92-9acc-5ba94e95a5e9")
-		)
-		(pin "12"
-			(uuid "f09779a7-d146-4222-b022-763536ebd3ae")
-		)
-		(pin "G1"
-			(uuid "ea985c93-54f7-4e0e-9865-eeda1ade1c33")
-		)
-		(pin "2"
-			(uuid "650fe571-8291-44ed-b950-4d4d78da3371")
-		)
-		(pin "3"
-			(uuid "7dfaf642-91a3-4707-98da-0490710b296e")
-		)
-		(pin "11"
-			(uuid "548c570c-791a-41ec-b0d7-9c8b88c1346e")
-		)
-		(pin "10"
-			(uuid "0b211a4e-6d83-4761-ad25-10c4a96ba675")
-		)
-		(pin "G2"
-			(uuid "2accecf0-b7b2-4f11-aa6c-d31fd8d9ff60")
-		)
-		(pin "7"
-			(uuid "887b66a8-8b35-40b7-b68c-22a7efc1f385")
-		)
-		(pin "6"
-			(uuid "89a247c2-85b4-43ad-abfc-92ef5e48ffd9")
-		)
-		(pin "5"
-			(uuid "03941b2a-2ee4-46d5-99cf-5bb33e2e1e61")
-		)
-		(pin "8"
-			(uuid "99731d0b-a3cb-4565-a9e7-790c69d98192")
-		)
-		(pin "1"
-			(uuid "cb18bd08-3acf-4ad8-94a4-a22db446f715")
-		)
-		(pin "4"
-			(uuid "72b4f856-62be-40c2-b732-131f3d28c563")
-		)
-		(instances
-			(project ""
-				(path "/2a83af91-06f2-49ce-b4c4-2ccbd245157a"
-					(reference "L1")
 					(unit 1)
 				)
 			)
