@@ -8,7 +8,7 @@
 	(property "Reference" "Q**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "6dd66aee-682d-43ea-8376-cadfcc411efe")
+		(uuid "296763f0-e1c1-4da5-bfea-a920cd3954ff")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "47a11be9-1782-456c-b07c-f2dd738da492")
+		(uuid "e22412cb-23e8-4b8e-aaf3-13116a5cc526")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "86725124-a9a5-4a59-bdfe-ff8e31ac139b")
+		(uuid "d3f556ce-e4bb-4739-b28d-dc7fbcb26b0c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77b23639-d040-450e-a3e3-9addfa698c64")
+		(uuid "80ed29d8-c7f9-4aa7-b6c5-40ffda49cf0a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2ee2da7f-139e-4dae-a659-88fd4c792c94")
+		(uuid "5d0f9cbf-4b2c-4577-a469-0a5c99633ca7")
 	)
 	(fp_line
 		(start 7.9 -3.069)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9896cb3b-17b6-4bf4-8cf3-c5fb69714269")
+		(uuid "ce62c2d2-0490-4ee1-b8a2-9f57c2b516ea")
 	)
 	(fp_line
 		(start 7.9 1.531)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f6156f76-6722-462d-882a-244691f0a3df")
+		(uuid "8e5e3a02-6d91-4fb2-a0f1-66133c78484c")
 	)
 	(fp_line
 		(start -2.75 -3.319)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "09945a94-d286-472a-9803-97b80debf49f")
+		(uuid "b2cd3107-8889-4ffe-a5b1-bd93c8a6b809")
 	)
 	(fp_line
 		(start -2.75 1.781)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4cd490ec-e49c-444d-8d78-fefc6c4d1f63")
+		(uuid "ccdcf5d7-b811-4853-992d-7f2a4ae7e164")
 	)
 	(fp_line
 		(start 8.15 -3.319)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9a45f07e-cf70-4bcf-8f76-f4b07ecb7d4e")
+		(uuid "e3d86d45-9861-4b7e-87cf-9d45745c9b78")
 	)
 	(fp_line
 		(start 8.15 1.781)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "319e00d4-32ab-42bc-8015-f92d12b6c7d0")
+		(uuid "49c1095e-23b7-4372-9f2f-e5387aea3d48")
 	)
 	(fp_line
 		(start -2.5 -3.069)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cd168f05-71f5-4a2f-9297-fae65531e81b")
+		(uuid "0210d9e7-84da-4172-a361-5a01c1212683")
 	)
 	(fp_line
 		(start -2.5 -1.719)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8f55fada-5a2a-450f-afde-debca7f3635a")
+		(uuid "1e820e63-99a8-4c42-8656-d48d37667a59")
 	)
 	(fp_line
 		(start -2.5 1.531)
@@ -151,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e9d5ba6a-dae0-4bce-9d0c-e97feccbb218")
+		(uuid "9e0d2638-795e-4a11-aa38-7f6b76302cbe")
 	)
 	(fp_line
 		(start 7.9 -3.069)
@@ -161,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7efaa844-18d9-452a-ade0-a82f907b3f7e")
+		(uuid "1400773d-3676-413d-9cd7-ef6ab79b07eb")
 	)
 	(fp_line
 		(start 7.9 1.531)
@@ -171,12 +171,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1daa3fc4-ebcb-4186-84ef-5c33fd9c0322")
+		(uuid "6e1e7d03-ff87-4954-8aba-3fb44d786ad7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "41fa584e-7103-48f3-9d2a-dac8e9305c4e")
+		(uuid "e179b602-c056-4b36-adad-af8772eb9f91")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -190,7 +190,7 @@
 		(drill 1.32)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d6079f7f-6fb1-4c2f-8206-04b2814a4346")
+		(uuid "d7f494c6-445a-465c-9a3c-6ad7de184923")
 	)
 	(pad "2" thru_hole circle
 		(at 2.7 0)
@@ -198,7 +198,7 @@
 		(drill 1.32)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ab4cd679-3ead-4392-9ebb-b79c259002ae")
+		(uuid "129ffbfb-d651-468a-9627-5b27ba11165b")
 	)
 	(pad "3" thru_hole circle
 		(at 5.4 0)
@@ -206,10 +206,10 @@
 		(drill 1.32)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "792e0953-59fa-40ef-8f72-487385feaa19")
+		(uuid "63b4c58b-6b7d-4661-a9df-e64f56a82beb")
 	)
 	(embedded_fonts no)
-	(model "STP16NF06.stp"
+	(model "STP36NF06.stp"
 		(offset
 			(xyz 0 0 0)
 		)
