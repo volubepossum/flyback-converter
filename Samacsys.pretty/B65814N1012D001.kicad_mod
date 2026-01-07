@@ -461,13 +461,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Samacsys.3dshapes/B65814N1012D001.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 10.15 -7.6 2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 45)
 		)
 	)
 )
